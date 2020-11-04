@@ -2,42 +2,93 @@
 /* Generals */
     body {
         font-family: Calibri, sans-serif;
-        background: #FFFFFF;
-        text-align: center;
         color: #2D3142;
         margin-left: 10%;
         margin-right: 10%;
         margin-top: 2%;
+        font-size: 16px;
     }
 
-/* Bandeau haut */
+/* Bandeau haut Gris Bleu foncé */
     .enTete {
+        text-align: center;
+        border: solid #EF8354 5px;
         background: #2D3142;
         color: #FFFFFF;
         padding-top: 1%;
         padding-bottom: 1%;
     }
 
-/* Bandeau Gauche */
+    h1 {
+        font-size: 45px;
+        text-decoration-line: underline;
+    }
 
+    h2 {
+        font-size: 35px;
+    }
+
+    h3 {
+        font-size: 20px;
+        text-decoration-line: underline;
+    }
+
+    h4 {
+        font-size: 15px;
+    }
+
+/* Bandeau Gauche Orange */
     .bandeauG {
-        z-index: 1;
+        text-align: center;
+        border: solid #2D3142 5px;
+        box-shadow: #2D3142 6px 6px 6px;
         top: 0;
         position: absolute;
-        text-align: center;
         float: left;
         padding-top: 3%;
-        background: #EF8354;
         margin-left: 5%;
+        background: #EF8354;
         height: 100%;
         width: 15%;
-        box-shadow: #4F5D75 5px 5px;
     }
 
     .photo {
-        border: solid #4F5D75 5px;
+        border: dotted #4F5D75 5px;
         border-radius: 50%;
         height: 200px;
         width: 200px;
-        margin-bottom: 5%;
+        margin-bottom: 10%;
+    }
+
+    .petiteInfo {
+        text-align: center;
+    }
+
+    .orangeBox div {
+        margin-top: 25%;
+        text-align: left;
+        padding-left: 5%;
+    }
+
+/* Contenues */
+    .contenuesCv {
+        min-height: 800px;
+        border: solid #2D3142 3px;
+        margin: 3% 5% 3% 30% ;
+        padding: 2% 2% 2% 2%;
+    }
+
+    .blocExperiences {
+        float: left;
+    }
+
+    .blocFormations {
+        float: right;
+    }
+
+/* Formulaire Contact */
+    form {
+        color: #FFFFFF;
+        background: #2D3142;
+        border: solid #2D3142;
     }
