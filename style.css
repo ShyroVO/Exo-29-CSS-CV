@@ -75,7 +75,7 @@
         min-height: 800px;
         border: solid #2D3142 3px;
         margin: 3% 5% 3% 30% ;
-        padding: 2% 2% 2% 2%;
+        padding: 2% 8% 2% 8%;
     }
 
     .blocExperiences {
@@ -90,5 +90,4 @@
     form {
         color: #FFFFFF;
         background: #2D3142;
-        border: solid #2D3142;
     }
