@@ -1,0 +1,43 @@
+
+/* Generals */
+    body {
+        font-family: Calibri, sans-serif;
+        background: #FFFFFF;
+        text-align: center;
+        color: #2D3142;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 2%;
+    }
+
+/* Bandeau haut */
+    .enTete {
+        background: #2D3142;
+        color: #FFFFFF;
+        padding-top: 1%;
+        padding-bottom: 1%;
+    }
+
+/* Bandeau Gauche */
+
+    .bandeauG {
+        z-index: 1;
+        top: 0;
+        position: absolute;
+        text-align: center;
+        float: left;
+        padding-top: 3%;
+        background: #EF8354;
+        margin-left: 5%;
+        height: 100%;
+        width: 15%;
+        box-shadow: #4F5D75 5px 5px;
+    }
+
+    .photo {
+        border: solid #4F5D75 5px;
+        border-radius: 50%;
+        height: 200px;
+        width: 200px;
+        margin-bottom: 5%;
+    }
